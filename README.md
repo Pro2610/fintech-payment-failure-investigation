@@ -1,5 +1,5 @@
 # fintech-payment-failure-investigation
-# Why Transactions Fail — Fintech Payment Investigation
+# Why Transactions Fail - Fintech Payment Investigation
 
 # Business Problem
 
