@@ -21,6 +21,7 @@ The goal of this investigation is to identify:
 4. Which merchants generate the highest failed revenue?
 5. What patterns indicate potential operational issues?
 
+
 # Dataset
 
 - 50,000 transactions
