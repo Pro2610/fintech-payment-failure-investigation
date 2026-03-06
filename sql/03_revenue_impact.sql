@@ -1,4 +1,4 @@
-Overall Revenue Loss from Failed Transactions
+# Overall Revenue Loss from Failed Transactions
 
 SELECT
   ROUND(SUM(amount), 2) AS total_amount,
@@ -9,7 +9,7 @@ SELECT
   ) AS failed_amount_share_pct
 FROM transactions;
 
-Revenue Loss by Payment Processing Stage
+# Revenue Loss by Payment Processing Stage
 
 SELECT
   stage_failed,
@@ -23,7 +23,7 @@ WHERE status = 'failed'
 GROUP BY stage_failed
 ORDER BY failed_amount DESC;
 
-Revenue Loss by Payment Processor
+# Revenue Loss by Payment Processor
 
 SELECT
   processor,
@@ -37,7 +37,7 @@ FROM transactions
 GROUP BY processor
 ORDER BY failed_amount DESC;
 
-Top Merchants by Failed Revenue
+# Top Merchants by Failed Revenue
 
 SELECT
   merchant_id,
@@ -54,7 +54,7 @@ HAVING failed_amount > 0
 ORDER BY failed_amount DESC
 LIMIT 15;
 
-Distribution of Failed Revenue Across Merchants
+# Distribution of Failed Revenue Across Merchants
 
 WITH merchant_failed AS (
   SELECT
