@@ -1,4 +1,3 @@
-# fintech-payment-failure-investigation
 # Why Transactions Fail - Fintech Payment Investigation
 
 # Business Problem
