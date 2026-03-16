@@ -88,3 +88,4 @@ Insight:
 More than half of all failed revenue is concentrated among just 10 merchants.
 
 This concentration suggests that targeted interventions with a small number of merchants could significantly reduce system-wide payment failures.
+
