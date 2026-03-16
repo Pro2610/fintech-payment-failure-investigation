@@ -30,3 +30,4 @@ SELECT
 FROM transactions
 GROUP BY payment_method
 ORDER BY fail_rate_pct DESC;
+
