@@ -10,6 +10,7 @@ The goal of this investigation is to identify:
 - how much revenue is lost,
 - and what business actions could reduce failures.
 
+
  # Investigation Questions
 
  Key questions:
